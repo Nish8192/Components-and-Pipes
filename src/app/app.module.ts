@@ -8,6 +8,7 @@ import { CurrenciesComponent } from './currencies/currencies.component';
 import { DatesComponent } from './dates/dates.component';
 import { TimeComponent } from './time/time.component';
 import { DatetimeComponent } from './datetime/datetime.component';
+import { CustomPipesPipe } from './custom-pipes.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DatetimeComponent } from './datetime/datetime.component';
     CurrenciesComponent,
     DatesComponent,
     TimeComponent,
-    DatetimeComponent
+    DatetimeComponent,
+    CustomPipesPipe
   ],
   imports: [
     BrowserModule,
